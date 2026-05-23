@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Tools</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+
+    <nav>
+        <a href="Main.html">Home</a>
+        <a href="PersonalInfo.html">Personal Info</a>
+        <a href="Tools.html">Tools</a>
+    </nav>
+
+    <div class="container">
+
+        <h1>Useful Tools</h1>
+
+        <!-- Calculator -->
+
+        <h2>Simple Calculator</h2>
+
+        <input type="number" id="num1" placeholder="First Number">
+
+        <input type="number" id="num2" placeholder="Second Number">
+
+        <br><br>
+
+        <button onclick="add()">Add</button>
+        <button onclick="subtract()">Subtract</button>
+        <button onclick="multiply()">Multiply</button>
+        <button onclick="divide()">Divide</button>
+
+        <p id="calcResult"></p>
+
+        <hr>
+
+        <!-- BMI -->
+
+        <h2>BMI Checker</h2>
+
+        <input type="number" id="weight" placeholder="Weight (kg)">
+
+        <input type="number" id="height" placeholder="Height (m)">
+
+        <br><br>
+
+        <button onclick="calculateBMI()">
+            Check BMI
+        </button>
+
+        <p id="bmiResult"></p>
+
+        <hr>
+
+        <!-- Income Tax -->
+
+        <h2>Income Tax Calculator</h2>
+
+        <input type="number" id="income" placeholder="Annual Income">
+
+        <br><br>
+
+        <button onclick="calculateTax()">
+            Calculate Tax
+        </button>
+
+        <p id="taxResult"></p>
+
+        <hr>
+
+        <!-- Unit Converter -->
+
+        <h2>Unit Converter</h2>
+
+        <input type="number" id="unitInput" placeholder="Enter Value">
+
+        <br><br>
+
+        <button onclick="cmToM()">cm to metre</button>
+
+        <button onclick="mToCm()">metre to cm</button>
+
+        <button onclick="mToKm()">metre to km</button>
+
+        <button onclick="kmToM()">km to metre</button>
+
+        <p id="unitResult"></p>
+
+    </div>
+
+</body>
+</html>
